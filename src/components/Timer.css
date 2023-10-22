@@ -1,0 +1,49 @@
+#timer-label{
+  color: var(--indigo); 
+  font-weight: bold;
+  text-transform:capitalize;
+}
+
+.outside-circle{
+  height: 200px;  width: 200px;
+  border:  1px solid #6f32a8;
+  border-radius: 50%;
+  margin: 1rem;
+  background: var(--gradient);
+}
+.ten {
+  width: 198px;  height: 198px;
+  border-radius: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.inside-circle{
+  height: 180px;  width: 180px;
+  border-radius: 50%;
+
+  background-color: white;
+}
+
+
+#time-left{
+  position: relative;  
+  /* top: 140px;  */
+  font-size: 2rem;
+  z-index: 2;
+}
+.border2{
+  position: absolute;
+  top: -6px; left: -6px;
+  height: 310px;  width: 310px;
+
+  background:
+    linear-gradient(white,white) padding-box,
+    conic-gradient( var(--indigo), var(--sky), var(--green),  var(--sky), var(--indigo)) border-box;
+  border-radius: 50em;
+  border: 10px solid transparent;
+  transition: stroke-dashoffset 0.5s ease-in-out;
+}
+

@@ -1,0 +1,31 @@
+.box {
+    padding: 1.5rem; 
+    min-width: 35%;
+    border-radius: 15px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+}
+
+
+#start_stop {
+    font-size: 1.3rem;
+    background-color: var(--indigo);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px ;
+  }
+  #stop, #restart{
+    color: var(--indigo);
+    border-radius: 50%;
+    border: 1px solid var(--indigo);
+    width: 50px; height: 50px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.LR-btn{
+    color: var(--indigo) !important;
+    border-radius: 50%;
+    border: 1px solid var(--indigo) !important;
+    width: 50px; height: 50px;
+}
